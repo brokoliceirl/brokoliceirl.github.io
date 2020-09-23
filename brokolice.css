@@ -15,3 +15,16 @@ body {
 	font-family: 'robotomedium';
 	color: white;
 }
+
+.top {
+  display: flex;
+
+}
+
+.top img {
+  margin-right: 10px;
+  display: block;
+}
+
+.top h3,
+.top h1 {margin: 0;}
