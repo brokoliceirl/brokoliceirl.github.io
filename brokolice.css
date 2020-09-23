@@ -3,17 +3,15 @@ body {
 }
 
 @font-face {
-  src: url('Roboto.woff');
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-h1 {
-	color: white;
-}
-
-h2 {
-	color: white;
-}
-
-p {
+* {
+	font-family: 'robotomedium';
 	color: white;
 }
